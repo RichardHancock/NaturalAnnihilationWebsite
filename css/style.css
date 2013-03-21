@@ -1,6 +1,10 @@
 /* Globals */
 body {
 	background-color: #000000;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+img {
+    border: 0;
 }
 /* Main Sections */
 #Wrapper {
@@ -22,8 +26,12 @@ body {
 }
 #MainBody {
 	background-color: #ffffff;
-	height: 600px;
+	height: auto;
 	margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden; /* for standards compliant browsers */
+    width: 100&#37;; /* for IE */
 }
 #NavSection {
 	height: 50px;
@@ -37,7 +45,6 @@ body {
     margin: 0;
     padding-top: 15px;
     text-align: center;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: bold;
 }
 /* Nav */
@@ -46,15 +53,13 @@ body {
 	font-size: 24pt;
 	margin: 0;
     padding: 0;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-	
 }
 #MainNav a{
 	display: block;
 	text-decoration: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 45px;
     width: 129px;
+    padding-top: 5px;
     text-align: center;
 }
 #MainNav a:hover {
@@ -80,62 +85,56 @@ body {
     margin-bottom: 0;
 }
 
-/* Nav Menu */
-#nav{
-    list-style:none;
-    font-weight:bold;
-    margin-bottom:10px;
-	/* Clear floats */
-    float:left;
-    width:100%;
-    /* Bring the nav above everything else--uncomment if needed.
-    position:relative;
-    z-index:5;
-    */
+/* quiz.html */
+#QuizWrapper h3 {
+    margin-top: 0px;
+    margin-left: 10px;
 }
-#nav li{
-    float:left;
-    margin-right:10px;
-    position:relative;
+#Quiz input {
+    vertical-align: middle;
 }
-#nav a{
-    display:block;
-    padding:5px;
-    color:#fff;
-    background:#333;
-    text-decoration:none;
+#Quiz form {
+    margin: 0;
 }
-#nav a:hover{
-    color:#fff;
-    background:#6b0c36;
-    text-decoration:underline;
+#Quiz ol {
+   margin: 0 0 10px 10px;
+   list-style-type: none;
+   padding: 0;
 }
 
-
-#nav ul{
-    background:#fff; <span class="code-comment">/* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */</span>
-    background:rgba(255,255,255,0); <span class="code-comment">/* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */</span>
-    list-style:none;
-    position:absolute;
-    left:-9999px; <span class="code-comment">/* Hide off-screen when not needed (this is more accessible than display:none;) */</span>
+#Quiz ol li {
+   /*margin: 0 0 20px 0;*/
+   display: block;
 }
-#nav ul li{
-    padding-top:1px; <span class="code-comment">/* Introducing a padding between the li and the a give the illusion spaced items */</span>
-    float:none;
+#Quiz img {
+    margin-bottom: 10px
 }
-#nav ul a{
-    white-space:nowrap; <span class="code-comment">/* Stop text wrapping and creating multi-line dropdown items */</span>
+#QuizWrapper {
+    float:left;
+    clear: both;
+    width: 748px;
+    margin-left: 10px;
+    background-color: #aaaaaa;
+    padding-top: 10px;
 }
-#nav li:hover ul{ <span class="code-comment">/* Display the dropdown on hover */</span>
-    left:0; <span class="code-comment">/* Bring back on-screen when needed */</span>
+.submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-#nav li:hover a{ <span class="code-comment">/* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */</span>
-    background:#6b0c36;
-    text-decoration:underline;
+#ResultsWrapper {
+    width: 246px;
+    float: right;
+    background-color: #aaaaaa;
+    margin-right: 10px;
+    padding-bottom: 10px;
 }
-#nav li:hover ul a{ <span class="code-comment">/* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */</span>
-    text-decoration:none;
+#ResultsWrapper h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
-#nav li:hover ul li a:hover{ <span class="code-comment">/* Here we define the most explicit hover states--what happens when you hover each individual link. */</span>
-    background:#333;
-}</code>
+#ResultsWrapper span {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 24pt;
+}
