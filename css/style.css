@@ -1,3 +1,7 @@
+/* Natural Annihilation CSS
+Done to meet a short deadline so code
+is very rough*/
+
 /* Globals */
 body {
 	background-color: #000000;
@@ -32,6 +36,7 @@ img {
     padding-bottom: 10px;
     overflow: hidden; /* for standards compliant browsers */
     width: 100&#37;; /* for IE */
+
 }
 #NavSection {
 	height: 50px;
@@ -84,7 +89,31 @@ img {
     padding-top: 10px;
     margin-bottom: 0;
 }
-
+/* media.html */
+#Media h2,h3,h4,p {
+    margin-left: 10px;
+}
+.imageWrapper {
+    background-color: #aaaaaa;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 1004px;
+}
+.videoWrapper {
+    background-color: #aaaaaa;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 1004px;
+}
+.quizSectionWrapper {
+    background-color: #aaaaaa;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 1004px;
+}
 /* quiz.html */
 #QuizWrapper h3 {
     margin-top: 0px;
@@ -137,4 +166,31 @@ img {
     margin-left: 10px;
     font-weight: bold;
     font-size: 24pt;
+}
+/* Contact Form */
+#SupportWrapper {
+    width: 497px;
+    float: left;
+    clear:both;
+    background-color: #aaaaaa;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+#ContactFormWrapper {
+    width: 497px;
+    float: right;
+    background-color: #aaaaaa;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+#ContactFormWrapper form {
+    padding-left: 10px;
+}
+#ContactFormWrapper h3 {
+    padding-left: 10px;
+}
+/* Story */
+.story h3,h4,p {
+    margin-left: 10px;
+    margin-right: 10px;
 }

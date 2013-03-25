@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Quiz Test</title>
+		<title>Natural Annihilation: Quiz</title>
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
@@ -35,11 +35,6 @@
 					<li><a href="game.html">Game</a></li>
 					<li class="empty">&nbsp;</li>
 					<li><a href="media.html">Media</a></li>
-						<!--<ul>
-							<li><a href="#">Screenshots</a></li>
-							<li><a href="#">Videos</a></li>
-							<li><a href="#">Other</a></li>
-						</ul>-->
 					<li><a href="guides.html">Guides</a></li>
 					<li><a href="support.php">Support</a></li>
 				</ul>
