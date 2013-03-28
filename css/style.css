@@ -59,7 +59,7 @@ img {
 	margin: 0;
     padding: 0;
 }
-#MainNav a{
+#MainNav a {
 	display: block;
 	text-decoration: none;
     height: 45px;
@@ -70,7 +70,7 @@ img {
 #MainNav a:hover {
     background-color: #aaaaaa;
 }
-#MainNav li{
+#MainNav li {
 	float: left;
     
 }
@@ -93,26 +93,16 @@ img {
 #Media h2,h3,h4,p {
     margin-left: 10px;
 }
-.imageWrapper {
+.mediaSectionWrapper {
     background-color: #aaaaaa;
     height: auto;
     margin-bottom: 10px;
     margin-left: 10px;
     width: 1004px;
+    padding-top: 10px;
 }
-.videoWrapper {
-    background-color: #aaaaaa;
-    height: auto;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width: 1004px;
-}
-.quizSectionWrapper {
-    background-color: #aaaaaa;
-    height: auto;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width: 1004px;
+.mediaSectionWrapper h3,h4 {
+    margin:0;
 }
 /* quiz.html */
 #QuizWrapper h3 {
@@ -193,4 +183,12 @@ img {
 .story h3,h4,p {
     margin-left: 10px;
     margin-right: 10px;
+}
+/* Gameplay */
+.gameplay h3,h4,h5,p {
+    margin-left: 10px;
+}
+/* Download Page */
+#Download strong {
+    color: red;
 }

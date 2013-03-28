@@ -17,7 +17,7 @@
 				<ul id="MainNav">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="story.html">Story</a></li>
-					<li><a href="game.html">Game</a></li>
+					<li><a href="gameplay.html">Game</a></li>
 					<li class="empty">&nbsp;</li>
 					<li><a href="media.html">Media</a></li>
 					<li><a href="guides.html">Guides</a></li>
