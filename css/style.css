@@ -104,6 +104,10 @@ img {
 .mediaSectionWrapper h3,h4 {
     margin:0;
 }
+#ImageGallery {
+    margin-left: 6px;
+    margin-right: 6px;
+}
 /* quiz.html */
 #QuizWrapper h3 {
     margin-top: 0px;
