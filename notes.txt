@@ -1,4 +1,0 @@
-1024 - 250 (Download box Width)
-774 / 2
-387 / 3
-129 width for each button

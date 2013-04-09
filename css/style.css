@@ -104,6 +104,9 @@ img {
 .mediaSectionWrapper h3,h4 {
     margin:0;
 }
+.mediaSectionWrapper iframe {
+    margin-left: 6px;
+}
 #ImageGallery {
     margin-left: 6px;
     margin-right: 6px;

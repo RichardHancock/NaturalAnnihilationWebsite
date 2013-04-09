@@ -10,7 +10,7 @@
 				<a href="download.html"><img src="http://dummyimage.com/250x100/000066/ff0000&amp;text=Download" /></a>
 			</div>
 			<div id="Logo">
-				<a href="index.html"><img src="Logo.png" /></a>
+				<a href="index.html"><img src="res/Logo.png" /></a>
 			</div>
 			
 			<div id="NavSection">
