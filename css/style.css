@@ -10,6 +10,10 @@ body {
 img {
     border: 0;
 }
+iframe {
+    margin-left: 6px;
+    padding-bottom: 2px;
+}
 /* Main Sections */
 #Wrapper {
 	width: 1024px;
@@ -80,14 +84,49 @@ img {
 
 /* Page Specific */
 /* index.html */
+.index {
+    background-color: #aaaaaa;
+    height: auto;
+    margin-left: 10px;
+    width: 1004px;
+    padding-top: 1px;
+}
 .index p {
     margin-left: 10px;
     margin-right: 10px;
 }
-.index h2 {
+.index h4 {
+    padding-bottom: 10px;
+}
+/* story.html */
+.story {
+    background-color: #aaaaaa;
+    height: auto;
     margin-left: 10px;
+    width: 1004px;
     padding-top: 10px;
-    margin-bottom: 0;
+    padding-bottom: 1px;
+}
+/* gameplay.html */
+.gameplay {
+    background-color: #aaaaaa;
+    height: auto;
+    margin-left: 10px;
+    width: 1004px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+/* download.html */
+.download {
+    background-color: #aaaaaa;
+    height: auto;
+    margin-left: 10px;
+    width: 1004px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.download strong {
+    color: red;
 }
 /* media.html */
 #Media h2,h3,h4,p {
@@ -100,16 +139,17 @@ img {
     margin-left: 10px;
     width: 1004px;
     padding-top: 10px;
+    padding-bottom: 6px;
 }
 .mediaSectionWrapper h3,h4 {
     margin:0;
 }
-.mediaSectionWrapper iframe {
-    margin-left: 6px;
-}
 #ImageGallery {
     margin-left: 6px;
     margin-right: 6px;
+}
+#VideoSection {
+    padding-bottom: 0px;
 }
 /* quiz.html */
 #QuizWrapper h3 {
@@ -164,6 +204,15 @@ img {
     font-weight: bold;
     font-size: 24pt;
 }
+/* guides.html */
+.guides {
+    background-color: #aaaaaa;
+    height: auto;
+    margin-left: 10px;
+    width: 1004px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
 /* Contact Form */
 #SupportWrapper {
     width: 497px;
@@ -186,6 +235,10 @@ img {
 #ContactFormWrapper h3 {
     padding-left: 10px;
 }
+.errorMsg,.resultMsg {
+    color: red;
+    font-weight: bold;
+}
 /* Story */
 .story h3,h4,p {
     margin-left: 10px;
@@ -194,8 +247,4 @@ img {
 /* Gameplay */
 .gameplay h3,h4,h5,p {
     margin-left: 10px;
-}
-/* Download Page */
-#Download strong {
-    color: red;
 }

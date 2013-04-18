@@ -3,6 +3,7 @@
 	<head>
 		<title>Natural Annihilation: Quiz</title>
 		<link rel="stylesheet" href="css/style.css" />
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<div id="Wrapper">
@@ -79,15 +80,15 @@
 			<!-- END - Contact Form Main PHP Block -->
 
 			<div id="MainBody">
+				<h3>Support</h3>
 				<div id="SupportWrapper">
-					<h3>Support</h3>
 					<p>If you were looking for the manual of the game <a href="guides.html">click here</a> to be redirected to the guides page.</p>
 					<h4>Contact Details</h4>
 					<p>admin@spacecrazyproductions.com</p>
 				</div>
 				<div id="ContactFormWrapper">
 					<h3>Contact Us</h3>
-					<form action="contact.php" method="post">
+					<form action="support.php" method="post">
 						Name: <br>
 						<input type="text" placeholder="Your Name" name="name"><span class="errorMsg"><?php if($error1) {echo "Please enter your name";} ?></span><br>
 						Email: <br>
@@ -97,7 +98,9 @@
 							<option value="Please Select">Select One</option>
 							<option value="General Message">General</option>
 							<option value="Web Bug Report">Website Problem/Bug</option>
-							<option value="Program Bug Report">Program/Game Problem/Bug</option>
+							<option value="Game Bug Report (Low Priority)">Game Bug Report (Low Priority)</option>
+							<option value="Game Bug Report (Medium Priority)">Game Bug Report (Medium Priority)</option>
+							<option value="Game Bug Report (High Priority)">Game Bug Report (High Priority)</option>
 							<option value="Legal Message">Legal Issues</option>
 						</select><span class="errorMsg"><?php if($error4) {echo "Please choose a subject";} ?></span><br>
 						Message: <br>

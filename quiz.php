@@ -3,6 +3,7 @@
 	<head>
 		<title>Natural Annihilation: Quiz</title>
 		<link rel="stylesheet" href="css/style.css" />
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<?php
@@ -15,8 +16,8 @@
             $correctCount = 0;
             
             if ($q1 == "b") { $correctCount++; }
-            if ($q2 == "a") { $correctCount++; }
-            if ($q3 == "c") { $correctCount++; }
+            if ($q2 == "c") { $correctCount++; }
+            if ($q3 == "a") { $correctCount++; }
             if ($q4 == "d") { $correctCount++; }
             if ($q5 == "a") { $correctCount++; }
 		?>
@@ -40,65 +41,65 @@
 				</ul>
 			</div>
 			<div id="MainBody">
+				<h3>Natural Annihilation Quiz</h3>
 				<div id="QuizWrapper">
-					<h3>Natural Annihilation Quiz</h3>
 					<form action="quiz.php" method="post" id="Quiz">
 						<ol>
-							<h4>Question 1</h4>
+							<h4>Q1: What is the name of the alien race that you play in the game?</h4>
 							<li>
 								<input type="radio" name="q1" id="q1a" value="a"/>
-								<label for="q1a">A. Answer 1</label>
+								<label for="q1a">A. The Naturalis</label>
 								<input type="radio" name="q1" id="q1b" value="b"/>
-								<label for="q1b">B. Answer 2</label>
+								<label for="q1b">B. The Tranquil</label>
 								<input type="radio" name="q1" id="q1c" value="c"/>
-								<label for="q1c">C. Answer 3</label>
+								<label for="q1c">C. The Teddingtons</label>
 								<input type="radio" name="q1" id="q1d" value="d"/>
-								<label for="q1d">D. Answer 4</label>
+								<label for="q1d">D. What Aliens?</label>
 							</li>
-							<h4>Question 2</h4>
-							<img src="http://dummyimage.com/300x150/000/fff"/>
+							<h4>Q2 - What is this a image of?</h4>
+							<img src="res/quiz/MysteryImage1.png"/>
 							<li>
 								<input type="radio" name="q2" id="q2a" value="a"/>
-								<label for="q2a">A. Answer 1</label>
+								<label for="q2a">A. Enemy Tank</label>
 								<input type="radio" name="q2" id="q2b" value="b"/>
-								<label for="q2b">B. Answer 2</label>
+								<label for="q2b">B. Teddington Spaceship</label>
 								<input type="radio" name="q2" id="q2c" value="c"/>
-								<label for="q2c">C. Answer 3</label>
+								<label for="q2c">C. Player Tank</label>
 								<input type="radio" name="q2" id="q2d" value="d"/>
-								<label for="q2d">D. Answer 4</label>
+								<label for="q2d">D. A blurry red thing</label>
 							</li>
-							<h4>Question 3</h4>
+							<h4>Q3 - Why are the alien race angry with the Humans?</h4>
 							<li>
 								<input type="radio" name="q3" id="q3a" value="a"/>
-								<label for="q3a">A. Answer 1</label>
+								<label for="q3a">A. Their treatment of earth</label>
 								<input type="radio" name="q3" id="q3b" value="b"/>
-								<label for="q3b">B. Answer 2</label>
+								<label for="q3b">B. The humans attacked the aliens</label>
 								<input type="radio" name="q3" id="q3c" value="c"/>
-								<label for="q3c">C. Answer 3</label>
+								<label for="q3c">C. The humans didn't return their phonecalls</label>
 								<input type="radio" name="q3" id="q3d" value="d"/>
-								<label for="q3d">D. Answer 4</label>
+								<label for="q3d">D. All of the above</label>
 							</li>
-							<h4>Question 4</h4>
+							<h4>Q4 - How are the aliens trying to solve the problems caused by the humans?</h4>
 							<li>
 								<input type="radio" name="q4" id="q4a" value="a"/>
-								<label for="q4a">A. Answer 1</label>
+								<label for="q4a">A. Diplomacy</label>
 								<input type="radio" name="q4" id="q4b" value="b"/>
-								<label for="q4b">B. Answer 2</label>
+								<label for="q4b">B. Punch-Up</label>
 								<input type="radio" name="q4" id="q4c" value="c"/>
-								<label for="q4c">C. Answer 3</label>
+								<label for="q4c">C. No Action</label>
 								<input type="radio" name="q4" id="q4d" value="d"/>
-								<label for="q4d">D. Answer 4</label>
+								<label for="q4d">D. Natural Annihilation</label>
 							</li>
-							<h4>Question 5</h4>
+							<h4>Q5 - How much does this game cost?</h4>
 							<li>
 								<input type="radio" name="q5" id="q5a" value="a"/>
-								<label for="q5a">A. Answer 1</label>
+								<label for="q5a">A. Nothing (Free)</label>
 								<input type="radio" name="q5" id="q5b" value="b"/>
-								<label for="q5b">B. Answer 2</label>
+								<label for="q5b">B. £10</label>
 								<input type="radio" name="q5" id="q5c" value="c"/>
-								<label for="q5c">C. Answer 3</label>
+								<label for="q5c">C. Millions</label>
 								<input type="radio" name="q5" id="q5d" value="d"/>
-								<label for="q5d">D. Answer 4</label>
+								<label for="q5d">D. $3.50</label>
 							</li>
 							<li>
 								<input type="submit" value="Submit Answers" class="submit"/>
