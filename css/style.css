@@ -14,6 +14,9 @@ iframe {
     margin-left: 6px;
     padding-bottom: 2px;
 }
+a:visited, a {
+    color: #0000FF;
+}
 /* Main Sections */
 #Wrapper {
 	width: 1024px;
