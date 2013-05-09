@@ -73,9 +73,11 @@ a:visited, a {
     width: 129px;
     padding-top: 5px;
     text-align: center;
+    color:#ff0000;
 }
 #MainNav a:hover {
     background-color: #aaaaaa;
+    color:#dd0000;
 }
 #MainNav li {
 	float: left;
