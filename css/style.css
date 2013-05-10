@@ -218,6 +218,9 @@ a:visited, a {
     padding-top: 10px;
     padding-bottom: 1px;
 }
+.guides img {
+    margin-left: 10px;
+}
 /* Contact Form */
 #SupportWrapper {
     width: 497px;

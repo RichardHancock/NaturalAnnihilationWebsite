@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Natural Annihilation: Quiz</title>
+		<title>Natural Annihilation: Support</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<meta charset="UTF-8">
 	</head>
