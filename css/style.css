@@ -15,7 +15,8 @@ iframe {
     padding-bottom: 2px;
 }
 a:visited, a {
-    color: #0000FF;
+    /*color: #0000FF;*/
+    color: #dd0000;
 }
 /* Main Sections */
 #Wrapper {
@@ -77,7 +78,10 @@ a:visited, a {
 }
 #MainNav a:hover {
     background-color: #aaaaaa;
-    color:#dd0000;
+    color:#ff0000;
+}
+#MainNav a:visited {
+    color:#ff0000;
 }
 #MainNav li {
 	float: left;
@@ -121,6 +125,11 @@ a:visited, a {
     padding-top: 10px;
     padding-bottom: 1px;
 }
+.gameplay img {
+    float:right;
+    margin-right: 20px;
+    margin-left: 10px;
+}
 /* download.html */
 .download {
     background-color: #aaaaaa;
@@ -129,9 +138,6 @@ a:visited, a {
     width: 1004px;
     padding-top: 10px;
     padding-bottom: 1px;
-}
-.download strong {
-    color: red;
 }
 /* media.html */
 #Media h2,h3,h4,p {
