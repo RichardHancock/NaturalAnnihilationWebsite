@@ -4,6 +4,8 @@
 		<title>Natural Annihilation: Quiz</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="shortcut icon" href="res/favicon.ico" />
+		<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+		<script src="js/background.js" type="text/javascript"></script>
 		<meta charset="UTF-8">
 	</head>
 	<body>
@@ -22,6 +24,7 @@
             if ($q4 == "d") { $correctCount++; }
             if ($q5 == "a") { $correctCount++; }
 		?>
+		<img src="res/background.jpg" id="bg"/>
 		<div id="Wrapper">
 			<div id="DownloadBox">
 				<a href="download.html"><img src="res/DownloadButton.jpg" /></a>

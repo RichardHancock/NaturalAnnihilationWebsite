@@ -18,6 +18,17 @@ a:visited, a {
     /*color: #0000FF;*/
     color: #dd0000;
 }
+/* Background */
+#bg { 
+    position: fixed; top: 0; left: 0; 
+}
+.bgwidth { 
+    width: 100%; 
+}
+.bgheight { 
+    height: 100%; 
+}
+
 /* Main Sections */
 #Wrapper {
 	width: 1024px;
@@ -26,7 +37,14 @@ a:visited, a {
 }
 #Logo {
 	height: 350px;
-	background-color: #aaaaaa;
+    background-color:rgba(170,170,170,0.2);
+    /*Transparency fix for logo IE <= 8*/
+    <!--[if lte IE 8]>    
+        background: transparent;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33AAAAAA,endColorstr=#33AAAAAA)"; /* IE8 */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33AAAAAA,endColorstr=#33AAAAAA);   /* IE6 & 7 */
+        zoom: 1
+    <![endif]-->
 }
 #DownloadBox {
 	background-color: #FF0000;
