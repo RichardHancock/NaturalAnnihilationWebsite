@@ -24,13 +24,13 @@
             if ($q4 == "d") { $correctCount++; }
             if ($q5 == "a") { $correctCount++; }
 		?>
-		<img src="res/background.jpg" id="bg"/>
+		<img src="res/background.jpg" id="bg" alt="Background Image"/>
 		<div id="Wrapper">
 			<div id="DownloadBox">
-				<a href="download.html"><img src="res/DownloadButton.jpg" /></a>
+				<a href="download.html"><img src="res/DownloadButton.jpg" alt="Link to Download Page"/></a>
 			</div>
 			<div id="Logo">
-				<a href="index.html"><img src="res/Logo.png" /></a>
+				<a href="index.html"><img src="res/Logo.png" alt="Natural Annihilation" /></a>
 			</div>
 			
 			<div id="NavSection">
@@ -49,7 +49,9 @@
 				<div id="QuizWrapper">
 					<form action="quiz.php" method="post" id="Quiz">
 						<ol>
-							<h4>Q1: What is the name of the alien race that you play in the game?</h4>
+							<li>
+								<h4>Q1: What is the name of the alien race that you play in the game?</h4>
+							</li>
 							<li>
 								<input type="radio" name="q1" id="q1a" value="a"/>
 								<label for="q1a">A. The Naturalis</label>
@@ -60,8 +62,10 @@
 								<input type="radio" name="q1" id="q1d" value="d"/>
 								<label for="q1d">D. What Aliens?</label>
 							</li>
-							<h4>Q2 - What is this a image of?</h4>
-							<img src="res/quiz/MysteryImage1.png"/>
+							<li>
+								<h4>Q2 - What is this a image of?</h4>
+								<img src="res/quiz/MysteryImage1.png" alt="Mystery Image of a Red Tank-like object"/>
+							</li>
 							<li>
 								<input type="radio" name="q2" id="q2a" value="a"/>
 								<label for="q2a">A. Enemy Tank</label>
@@ -72,7 +76,9 @@
 								<input type="radio" name="q2" id="q2d" value="d"/>
 								<label for="q2d">D. A blurry red thing</label>
 							</li>
-							<h4>Q3 - Why are the alien race angry with the Humans?</h4>
+							<li>
+								<h4>Q3 - Why are the alien race angry with the Humans?</h4>
+							</li>
 							<li>
 								<input type="radio" name="q3" id="q3a" value="a"/>
 								<label for="q3a">A. Their treatment of earth</label>
@@ -83,7 +89,9 @@
 								<input type="radio" name="q3" id="q3d" value="d"/>
 								<label for="q3d">D. All of the above</label>
 							</li>
-							<h4>Q4 - How are the aliens trying to solve the problems caused by the humans?</h4>
+							<li>
+								<h4>Q4 - How are the aliens trying to solve the problems caused by the humans?</h4>
+							</li>
 							<li>
 								<input type="radio" name="q4" id="q4a" value="a"/>
 								<label for="q4a">A. Diplomacy</label>
@@ -94,7 +102,9 @@
 								<input type="radio" name="q4" id="q4d" value="d"/>
 								<label for="q4d">D. Natural Annihilation</label>
 							</li>
-							<h4>Q5 - How much does this game cost?</h4>
+							<li>
+								<h4>Q5 - How much does this game cost?</h4>
+							</li>
 							<li>
 								<input type="radio" name="q5" id="q5a" value="a"/>
 								<label for="q5a">A. Nothing (Free)</label>
@@ -113,7 +123,7 @@
 				</div>
 				<div id="ResultsWrapper">
 					<h3>Results:</h3>
-					<span><?php echo"$correctCount / 5" ?><span>
+					<span> <?php echo"$correctCount / 5" ?> </span>
 				</div>
 			</div>
 			<div id="Footer">

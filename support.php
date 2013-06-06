@@ -9,13 +9,13 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<img src="res/background.jpg" id="bg"/>
+		<img src="res/background.jpg" id="bg" alt="Background Image"/>
 		<div id="Wrapper">
 			<div id="DownloadBox">
-				<a href="download.html"><img src="res/DownloadButton.jpg" /></a>
+				<a href="download.html"><img src="res/DownloadButton.jpg" alt="Link to Download Page"/></a>
 			</div>
 			<div id="Logo">
-				<a href="index.html"><img src="res/Logo.png" /></a>
+				<a href="index.html"><img src="res/Logo.png" alt="Natural Annihilation"/></a>
 			</div>
 			
 			<div id="NavSection">
